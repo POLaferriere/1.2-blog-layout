@@ -1,0 +1,170 @@
+html {
+  margin:0;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-image: url(images/greenville1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin:0;
+  padding:0;
+}
+
+.logo {
+  box-sizing: border-box;
+  border: 3px solid white;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  position: relative;
+  top: 250px;
+  left: 100px;
+}
+
+.large {
+  height: 100%;
+  width: auto;
+  border-radius: 100%;
+}
+
+.small {
+  height: 40px;
+  width: 40px;
+}
+.container {
+  vertical-align: top;
+  width: 100%;
+  max-width: 1000px;
+  min-width: 730px;
+  position: relative;
+  display: inline-block;
+  padding: 0 30px;
+}
+
+.sidebar {
+  float: left;
+  display: inline-block;
+  padding-top: 75px;
+  width: 25%;
+  text-align: left;
+  margin-right: 30px;
+
+}
+
+.search {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 19px;
+  color: gray;
+}
+
+.searchbox {
+  display: block;
+  width: 75%;
+  height: 1.5em;
+  margin: 0 auto;
+}
+
+.content {
+  float: left;
+  display: inline-block;
+  padding-top: 75px;
+  width: 70%;
+  text-align: left;
+}
+
+.location {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 19px;
+  letter-spacing: 1.1px;
+}
+
+.quote {
+  font-family: "PT Serif", serif;
+}
+
+hr {
+  align: center;
+  width: 70%;
+}
+
+.title {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.byline {
+  display: block;
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  font-size: 18px;
+}
+
+p {
+  display: block;
+  font-family: "PT Serif", serif;
+}
+
+.box {
+  background-color: white;
+  height: 80px;
+  width: 340px;
+  border: 1px solid rgba(0,0,0,0.2);
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 3px;
+}
+
+.box-top {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.box-bottom-left {
+  float: left;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.box-bottom-center {
+  display: inline-block;
+  margin: 0 5px 0 10px;
+}
+
+.box-bottom-right {
+  margin-top: 5px;
+  display: inline-block;
+  float: right;
+}
+
+.box-bold {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.box-reg {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.follow {
+  height: 26px;
+  width: 79px;
+  margin-right: 10px;
+}
